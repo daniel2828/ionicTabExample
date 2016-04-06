@@ -1,0 +1,23 @@
+<ion-view view-title="Datos Usuario">
+<ion-content class="padding">
+
+<h2 class="title titleUsers" > {{users.nombre}}</h2>
+<div class="list">
+	<label class="item item-input item-stacked-label">
+		<span class="input-label">Nombre:</span>
+		<input type="text" placeholder="{{users.nombre}}">
+	</label>
+	<label class="item item-input item-stacked-label">
+		<span class="input-label">Apellidos</span>
+		<input type="text" placeholder="{{users.apellidos}}">
+	</label>
+	<label class="item item-input item-stacked-label">
+		<span class="input-label">Teléfono</span>
+		<input type="text" placeholder="{{users.telefono}}">
+	</label>
+	<label class="item item-image">
+		<img src="img/users/{{users.foto}}">
+ 	</label>
+</div>
+</ion-content>
+</ion-view>
